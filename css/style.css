@@ -1,0 +1,173 @@
+body{
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing:border-box;
+}
+#head{
+	width:80%;
+	margin-left:10%;
+	background-color:grey;
+	margin-top:0;
+}
+#head ul{
+	list-style-type:none;
+	margin:0;
+	overflow:hidden;
+}
+#head li h1{
+	float:left;
+}
+#head li a{
+	display:block;
+	float:right;
+	text-decoration:none;
+	padding:10px 15px;
+	font-size:25px;
+	color:black;
+	border-left:1px solid lightgrey;
+}
+#head li a:hover{
+	background-color:black;
+	color:white;
+}
+#head li:first-child{
+	float:left;
+}
+li a.ignr{
+	color:black !important;
+	background-color:grey !important;
+	font-size:18px !important;
+	padding:0 !important;
+	border:none !important;
+}
+li a.ignr:hover{
+	color:black !important;
+	background-color:grey !important;
+	font-size:18px !important;
+	border:none !important;
+}
+#head h1{
+	margin:0;
+}
+#body{
+	width:80%;
+	background-color:lightgrey;
+	margin-left:10%;
+	padding-top:2%;
+	padding-bottom:1%;
+	position:relative;
+}
+#mainpart{
+	width:72%;
+	margin-left:3%;
+	float:left;
+}
+#slideshow{
+	width:100%;
+}
+#slideImg{
+	width:95%;
+}
+#news{
+	
+}
+.articles{
+	width:40%;
+	height:100px;
+	border:1px solid black;
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+	overflow:hidden;
+}
+.articles h2, .articles p{
+	margin:0;
+}
+.articles h2{
+	text-align:center;
+}
+.articles img{
+	width:40%;
+	height:100px;
+	float:left;
+}
+.articlesRight{
+	width:95%;
+	height:80px;
+	border:1px solid black;
+	float:left;
+	margin-right:2%;
+	margin-bottom:3%;
+	overflow:hidden;
+}
+.articlesRight h2, .articlesRight p{
+	margin:0;
+}
+.articlesRight img{
+	width:40%;
+	height:78px;
+	float:left;
+}
+#latestnews{
+	width:24%;
+	height:700px;
+	float:left;
+	margin-right:1%;
+	overflow:auto;
+}
+#latestArticles{
+	border-bottom:1px solid red;
+}
+#body:after{
+	content:" ";
+	clear:both;
+	display:table;
+}
+
+/*footer*/
+#footer{
+	width:80%;
+	margin-left:10%;
+	background-color:grey;
+	overflow:auto;
+}
+#footer h2{
+	margin:0;
+}
+#footer p{
+	margin:0;
+}
+#container{
+	padding:1% 1% 1% 5%;
+}
+#newsAbout{
+	float:left;
+	width:33%;
+}
+#newsAbout a{
+	display:block;
+	color:darkblue;
+}
+#socialMedia{
+	float:left;
+	width:33%;
+}
+#socialMedia a{
+	display:block;
+	color:darkblue;
+}
+#contact{
+	float:left;
+	width:33%;
+}
+
+#container:after{
+	content:" ";
+	clear:both;
+	display:table;
+}
+#copyRight b{
+	margin-left:1%;
+}
